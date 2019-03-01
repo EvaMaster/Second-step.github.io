@@ -1,0 +1,78 @@
+@import "header/css/header.scss", 
+    "services/css/services.scss", 
+    "about/css/about.scss", 
+    "work/css/work.scss", 
+    "conversation/css/conversation.scss", 
+    "blog/css/blog.scss", 
+    "clients/css/clients.scss", 
+    "form/css/form.scss", 
+    "footer/css/footer.scss";
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(header/fonts/Montserrat-Regular.ttf);
+   }
+@font-face {
+    font-family: RobotoSlab-Regular;
+    src: url(header/fonts/RobotoSlab-Regular.ttf);
+   }
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color:#555;
+}
+.d-f{
+    display: flex;
+    }
+.d-f-line{
+    display: inline-flex;
+    }
+.f-dir-col{
+    flex-direction: column;
+    }
+.bg-repeat{ 
+    background-repeat: no-repeat;
+    }
+.bg-size-cover{
+    background-size: cover;
+    }
+.bg-size-contein{
+    background-size:contain;
+    }
+.font-f-mont-reg{
+    font-family: Montserrat-Regular;
+    }
+.font-f-robo-reg{
+    font-family: RobotoSlab-Regular;
+    }
+.text-trans-cap{
+    text-transform:capitalize;
+    }
+.text-trans-up{
+    text-transform:uppercase;
+    }
+.f-just-cont-space-bet{
+    justify-content: space-between;
+    }
+.f-align-self-cntr{
+    align-self: center;
+    }
+.button_border{
+    border:2px solid;
+    border-radius: 2px;
+    }
+
+.head__caption{
+    margin-top: 7.5%;
+    letter-spacing: .5px;
+}
+.head__line{
+    width: 40px;
+    border:1px solid;
+    margin:6% 0%;
+}
+.head__title{
+    font-size: 89%;
+    letter-spacing: -.4px;
+    margin-bottom: 16%;
+}

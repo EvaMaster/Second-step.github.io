@@ -1,0 +1,49 @@
+.services{
+    width: 71%;
+    height: auto;
+    color: #555555;
+}
+.srvices-content{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-block{
+    width: 31.5%;
+    margin-bottom: 15%;
+}
+.services-block__img{
+    background-image: url(services/img/services-fa-icons.png);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-size: 300%;
+    margin-bottom: 8%;
+}
+.services-block__img-first{
+    background-position: top left;
+}
+.services-block__img-first:hover{
+    background-position: bottom left;
+}
+.services-block__img-second{
+    background-position: top right;
+}
+.services-block__img-second:hover{
+    background-position: bottom right;
+}
+.services-block__img-thrid{
+    background-position: top center;
+}
+.services-block__img-thrid:hover{
+    background-position: bottom center;
+}
+.services-block__header{
+    font-size: 70%;
+    margin-bottom: 6%;
+    font-weight: bold;
+}
+.services-block__text{
+    font-size:70%;
+    letter-spacing: .35px;
+    line-height: 165%;
+}
