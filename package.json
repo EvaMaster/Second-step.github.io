@@ -20,5 +20,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvaMaster/Second-step.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvaMaster/Second-step.github.io/issues"
+  },
+  "homepage": "https://github.com/EvaMaster/Second-step.github.io#readme"
 }
