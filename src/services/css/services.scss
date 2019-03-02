@@ -1,15 +1,14 @@
 .services{
     width: 71%;
     height: auto;
-    color: #555555;
+    color: #555;
 }
 .srvices-content{
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .services-block{
     width: 31.5%;
-    margin-bottom: 15%;
+    margin-bottom: 9%;
 }
 .services-block__img{
     background-image: url(services/img/services-fa-icons.png);
@@ -20,30 +19,28 @@
     margin-bottom: 8%;
 }
 .services-block__img-first{
-    background-position: top left;
-}
-.services-block__img-first:hover{
-    background-position: bottom left;
+    background-position-x: left;
+    &:hover{
+        background-position-y: bottom;
+    }
 }
 .services-block__img-second{
-    background-position: top right;
-}
-.services-block__img-second:hover{
-    background-position: bottom right;
+    background-position-x: right;
+    &:hover{
+        background-position-y: bottom;
+    }
 }
 .services-block__img-thrid{
-    background-position: top center;
-}
-.services-block__img-thrid:hover{
-    background-position: bottom center;
+    background-position-x: center;
+    &:hover{
+        background-position-y: bottom;
+    }
 }
 .services-block__header{
-    font-size: 70%;
     margin-bottom: 6%;
     font-weight: bold;
 }
 .services-block__text{
-    font-size:70%;
     letter-spacing: .35px;
     line-height: 165%;
 }

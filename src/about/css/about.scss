@@ -1,19 +1,86 @@
 .about{
     background-color: #f8f8f8;
-    width: 100%;
-    height: auto;
+    padding-top: 3.9%;
 }
-.content{
-    width: 71%;
-    height: auto;
-    color: #555555;
-}
+
 .about-text{
-    text-align: left;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    margin-bottom: 6%;
 }
-.align-text-left{
-    text-align: left;
+.about-block__text{
+    width: 48.5%;
+    letter-spacing: .29px;
+    line-height: 180%;
+}
+
+
+
+
+.about-member-slider{
+    margin-bottom: 8%;
+    display: flex;
+}
+
+
+
+.member-block{
+    width: 23%;
+}
+.member-photo_size{
+    width: 225px;
+    height: 215px;
+}
+.member-photo{
+    margin-bottom: 6%;
+    background-size: 104%;
+    background-position: center 5%;
+    &_uddin{
+        background-image: url(about/img/about-us-uddin.png);
+    }
+    &_miah{
+        background-image: url(about/img/about-us-miah.png);
+    }
+    &_mia{
+        background-image: url(about/img/about-us-mia.png);
+    }
+    &_doe{
+        background-image: url(about/img/about-us-doe.png);
+    }
+}
+.container-link_visible{
+    visibility: hidden;
+    background-color: rgba(85, 85, 85, .5);
+}
+
+.member-photo:hover .container-link_visible{
+    visibility: visible;
+}
+.container_link{
+    margin-top: 71%;
+}
+.member-link{
+    height: 23px;
+    width: 23px;
+    background-size:720%;
+    background-image: url(about/img/about-us-fa-icons.png);
+    &__fb{
+        background-position-x: 0%;
+    }
+    &__tw{
+        background-position-x: 18%;
+    }
+    &__gl{
+        background-position-x: 34%;
+    }
+    &__in{
+        background-position-x: 53%;
+    }
+    &:hover{
+        background-position-y: 63%;
+    }
+}
+.member__name{
+    font-size: 80%;
+    margin-bottom: 3%;
+    letter-spacing: .4px;
 }
