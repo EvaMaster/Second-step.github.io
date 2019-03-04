@@ -1,7 +1,100 @@
 .work{
-    color:gray;
+    color: #555;
 }
-
-div{
-    height: 20%;
+.work-content{
+    padding-top: 6%;
+    width: 72%;
+    margin-bottom: 5%;
+}
+.work-content-menu{
+    width: 350px;
+}
+.work-content-menu__tab{
+    font-size:83%;
+    margin-bottom:18%;
+    cursor:pointer;
+    &:hover {
+        color: red;
+    }
+}
+.work-container{
+    flex-wrap: wrap;
+    &_hidden{
+        visibility: hidden;
+        justify-content: center;
+        width: 307px;
+        height: 267px;
+        background-color: rgba(192, 48, 28, .7);
+        color:#f8f8f8;
+        align-items: center;
+    }
+}
+.work-container-block{
+    width: 307px;
+    height: 267px;
+    background-image: url(work/img/works-img-1.png);
+    background-size: cover;
+    margin-bottom: 2.5%;
+    &:nth-child(2){
+        background-image: url(work/img/works-img-2.png);
+        background-position: center;
+    }
+    &:nth-child(3){
+        background-image: url(work/img/works-img-3.png);
+        background-position:right;
+    }
+    &:nth-child(4){
+        background-image: url(work/img/works-img-4.png);
+        background-position:44%;
+        background-size: 140%;
+    }
+    &:nth-child(5){
+        background-image: url(work/img/works-img-5.png);
+        background-position:right;
+        background-size: 105%;
+    }
+    &:nth-child(6){
+        background-image: url(work/img/works-img-6.png);
+        background-position:57%;
+        background-size: 150%;
+    }
+    &:nth-child(7){
+        background-image: url(work/img/works-img-7.png);
+    }
+    &:nth-child(8){
+        background-image: url(work/img/works-img-8.png);
+        background-position: 23% -22px;
+        background-size: 150%;
+    }
+    &:nth-child(9){
+        background-image: url(work/img/works-img-9.png);
+        background-position:63.5%;
+    }
+}
+.work-container-block:hover .work-container_hidden{
+    visibility: visible;
+}
+.work-container__header{
+    font-size:90%;
+    margin-bottom: 5%;
+}
+.work_container__title{
+    margin-bottom: 7%;
+}
+.work-container__button{
+    width:80px;
+    height:30px;
+}
+.work-container__button_style{
+    background-color:#fff;
+    border:none;
+    background-image: url(work/img/works-img-btn.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.work-container__button_font-style{
+    color: red;
+    text-align: left;
+    padding-left: 13px;
 }
